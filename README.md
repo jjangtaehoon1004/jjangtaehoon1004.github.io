@@ -12,8 +12,4 @@
           <Route path="/myinfo"  element={<MyInfo/>}></Route>
           <Route path="/signin"  element={<SignInObj/>}></Route>
           <Route path="/signup"  element={<SignUp/>}></Route>
-          <Route path="/editor"  element={<Editor/>}></Route>
-          <Route path="/test"  element={<Test/>}></Route>
-          <Route path="/layout"  element={<Layout/>}></Route>
-          <Route path="/slidertest"  element={<SliderTest/>}></Route>
           <Route path="*" element={<div className='error'>에러 페이지</div>} />
