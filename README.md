@@ -1,26 +1,25 @@
 # jjangtaehoon1004.github.io
-
-          <Route path="/" element={<Home/>}></Route>
           
-          <Route path="/groupadd"  element={<GroupAdd/>}></Route>
-          버튼클릭 
-          > 이전 / 다음 
+          링크가 많은데 추후 줄어들 예정입니다.
           
-          <Route path="/groupinfo"  element={<GroupInfo/>}></Route>
-          메뉴클릭 
-          >그룹목표
-          >그룹상세
-          >치료후기(123,123)
-          
-          <Route path="/memberinfo"  element={<MemberInfo/>}></Route>
-          메뉴클릭
-          치료사 소개
-          치료사 상세
-          담당 그룹
-          치료후기(12)
-          
-          <Route path="/diary"  element={<Diary/>}></Route>
-          <Route path="/myinfo"  element={<MyInfo/>}></Route>
+          <Route path="/home" element={<Home/>}></Route>
+          <Route path="/groupadd"  element={<GroupAdd/>}></Route>{/* 그룹생성 */}
+          <Route path="/groupinfo"  element={<GroupInfo/>}></Route>{/* 그룹상세정보 */}
+          <Route path="/groupjoin"  element={<GroupJoin/>}></Route>{/* 그룹참여신청 */}
+          <Route path="/memberinfo"  element={<MemberInfo/>}></Route>{/* 회원상세정보 */}
+          <Route path="/memberdetail"  element={<MemberDetail/>}></Route>
+          <Route path="/membergroup"  element={<MemberGroup/>}></Route>
+          <Route path="/memberboard"  element={<MemberBoard/>}></Route>
+          <Route path="/diarychild"  element={<DiaryChild/>}></Route> {/* 치료일지(치료사) */}
+          <Route path="/diaryteacher"  element={<DiaryTeacher/>}></Route>
+          <Route path="/diaryparents"  element={<DiaryParents/>}></Route>
+          <Route path="/myinfo"  element={<MyInfo/>}></Route> {/* 나의정보 */}
+          <Route path="/child"  element={<Child/>}></Route>
+          <Route path="/custominfo"  element={<CustomInfo/>}></Route>
+          <Route path="/like"  element={<Like/>}></Route>
+          <Route path="/group"  element={<Group/>}></Route>
+          <Route path="/join"  element={<Join/>}></Route>
           <Route path="/signin"  element={<SignInObj/>}></Route>
           <Route path="/signup"  element={<SignUp/>}></Route>
-          <Route path="*" element={<div className='error'>에러 페이지</div>} />
+          <Route path="/"  element={<DefaultMain/>}></Route>
+          <Route path="/defaultsearch"  element={<DefaultSearch/>}></Route>
