@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a2204b7.chunk.css",
-    "main.js": "/static/js/main.9d13b915.chunk.js",
-    "main.js.map": "/static/js/main.9d13b915.chunk.js.map",
+    "main.css": "/static/css/main.ee8d99cd.chunk.css",
+    "main.js": "/static/js/main.f6afe675.chunk.js",
+    "main.js.map": "/static/js/main.f6afe675.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4b294dd8.js",
     "runtime-main.js.map": "/static/js/runtime-main.4b294dd8.js.map",
-    "static/js/2.77b3d1ac.chunk.js": "/static/js/2.77b3d1ac.chunk.js",
-    "static/js/2.77b3d1ac.chunk.js.map": "/static/js/2.77b3d1ac.chunk.js.map",
+    "static/js/2.e2feac15.chunk.js": "/static/js/2.e2feac15.chunk.js",
+    "static/js/2.e2feac15.chunk.js.map": "/static/js/2.e2feac15.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5a2204b7.chunk.css.map": "/static/css/main.5a2204b7.chunk.css.map",
-    "static/js/2.77b3d1ac.chunk.js.LICENSE.txt": "/static/js/2.77b3d1ac.chunk.js.LICENSE.txt",
+    "static/css/main.ee8d99cd.chunk.css.map": "/static/css/main.ee8d99cd.chunk.css.map",
+    "static/js/2.e2feac15.chunk.js.LICENSE.txt": "/static/js/2.e2feac15.chunk.js.LICENSE.txt",
     "static/media/*font.css": "/static/media/AnyConv.com__SDSamliphopangcheBasic.775d1a54.woff",
     "static/media/member.info.css": "/static/media/bg-talk.281a5018.png",
-    "static/media/group.css": "/static/media/bg-group-add.1d498197.png",
-    "static/media/*common.css": "/static/media/slider-right.679dac09.svg",
-    "static/media/member_detail_teacher_medal_logo.4835702a.svg": "/static/media/member_detail_teacher_medal_logo.4835702a.svg",
+    "static/media/*common.css": "/static/media/treatment_bg.1f1ad059.svg",
+    "static/media/myinfo_teacher_Icon_metro-attachment.d3dae462.svg": "/static/media/myinfo_teacher_Icon_metro-attachment.d3dae462.svg",
     "static/media/step1.13f81ece.svg": "/static/media/step1.13f81ece.svg",
     "static/media/step2.1606962c.svg": "/static/media/step2.1606962c.svg",
     "static/media/step3.fc0b685f.svg": "/static/media/step3.fc0b685f.svg",
@@ -22,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4b294dd8.js",
-    "static/js/2.77b3d1ac.chunk.js",
-    "static/css/main.5a2204b7.chunk.css",
-    "static/js/main.9d13b915.chunk.js"
+    "static/js/2.e2feac15.chunk.js",
+    "static/css/main.ee8d99cd.chunk.css",
+    "static/js/main.f6afe675.chunk.js"
   ]
 }
