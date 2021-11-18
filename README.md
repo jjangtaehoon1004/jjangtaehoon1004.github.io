@@ -1,28 +1,37 @@
 # jjangtaehoon1004.github.io
           
-          링크가 많은데 추후 줄어들 예정입니다.
+          {/* 로그인전화면 */}
+          <Route path="/" element={<DefaultMain />}></Route>
+          <Route path="/defaultsearch" element={<DefaultSearch />}></Route>
+
+          {/* 로그인후화면 */}
+          <Route path="/home" element={<Home />}></Route>
+
+          {/* 그룹생성 
+          1.치료구분 ~ 9.상세정보 */}
+          <Route path="/groupadd" element={<GroupAdd />}></Route>
+
+          {/* 그룹상세정보 */}
+          <Route path="/groupinfo" element={<GroupInfo />}></Route>
+
+          {/* 그룹참여신청 
+          임시메뉴 >> 그룹참여신청:보호자, 그룹참여신청:치료사, 그룹초대:치료사, 그룹진행여부 */}
+          <Route path="/groupjoin" element={<GroupJoin />}></Route>
+
+          {/* 회원상세정보 
+          치료사 소개, 치료사 상세, 담당 그룹, 치료후기 */}
+          <Route path="/memberinfo" element={<MemberInfo />}></Route>
+
+          {/* 치료일지 
+          임시메뉴 >> 치료일지:치료사 , 치료사후기:보호자, 보호자후기:치료사 */}
+          <Route path="/diary" element={<Diary />}></Route>
+
+          {/* 나의정보 
+          보호자 정보, 어린이 정보, 맞춤정보, 좋아요, 그룹정보, 참여신청*/}
+          <Route path="/myinfo" element={<MyInfo />}></Route>
+
+          {/* 로그인 */}
+          <Route path="/signin" element={<SignInObj />}></Route>
           
-          <Route path="/home" element={<Home/>}></Route>
-          <Route path="/groupadd"  element={<GroupAdd/>}></Route>{/* 그룹생성 */}
-          <Route path="/groupinfo"  element={<GroupInfo/>}></Route>{/* 그룹상세정보 */}
-          <Route path="/groupjoin"  element={<GroupJoin/>}></Route>{/* 그룹참여신청 */}
-          <Route path="/memberinfo"  element={<MemberInfo/>}></Route>{/* 회원상세정보 */}
-          <Route path="/memberdetail"  element={<MemberDetail/>}></Route>
-          <Route path="/membergroup"  element={<MemberGroup/>}></Route>
-          <Route path="/memberboard"  element={<MemberBoard/>}></Route>
-          <Route path="/diarychild"  element={<DiaryChild/>}></Route> {/* 치료일지(치료사) */}
-          <Route path="/diaryteacher"  element={<DiaryTeacher/>}></Route>
-          <Route path="/diaryparents"  element={<DiaryParents/>}></Route>
-          <Route path="/myinfo"  element={<MyInfo/>}></Route> {/* 나의정보 */}
-          <Route path="/child"  element={<Child/>}></Route>
-          <Route path="/custominfo"  element={<CustomInfo/>}></Route>
-          <Route path="/like"  element={<Like/>}></Route>
-          <Route path="/group"  element={<Group/>}></Route>
-          <Route path="/join"  element={<Join/>}></Route>
-          <Route path="/signin"  element={<SignInObj/>}></Route>
-          <Route path="/signup"  element={<SignUp/>}></Route>
-          <Route path="/"  element={<DefaultMain/>}></Route>
-          <Route path="/defaultsearch"  element={<DefaultSearch/>}></Route>
-          
-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
-49d52d594531af7f1b0ae492fc7230ff
+          {/* 회원가입 */}
+          <Route path="/signup" element={<SignUp />}></Route>
