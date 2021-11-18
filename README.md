@@ -11,7 +11,8 @@
           1.치료구분 ~ 9.상세정보 */}
           <Route path="/groupadd" element={<GroupAdd />}></Route>
 
-          {/* 그룹상세정보 */}
+          {/* 그룹상세정보 
+          치료사초대 >> 클릭 팝업 */}
           <Route path="/groupinfo" element={<GroupInfo />}></Route>
 
           {/* 그룹참여신청 
@@ -32,6 +33,6 @@
 
           {/* 로그인 */}
           <Route path="/signin" element={<SignInObj />}></Route>
-          
+
           {/* 회원가입 */}
           <Route path="/signup" element={<SignUp />}></Route>
