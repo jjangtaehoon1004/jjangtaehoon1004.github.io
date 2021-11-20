@@ -1,6 +1,6 @@
 # jjangtaehoon1004.github.io
           
-          {/* 로그인전화면 */}
+         {/* 로그인전화면 */}
           <Route path="/" element={<DefaultMain />}></Route>
           <Route path="/defaultsearch" element={<DefaultSearch />}></Route>
 
@@ -28,7 +28,8 @@
           <Route path="/diary" element={<Diary />}></Route>
 
           {/* 나의정보 
-          보호자 정보, 어린이 정보, 맞춤정보, 좋아요, 그룹정보, 참여신청*/}
+          보호자 정보, 어린이 정보, 맞춤정보, 좋아요, 그룹정보, 참여신청
+          임시메뉴 >> 나의정보(아바타클릭팝업), 치료사정보 */}
           <Route path="/myinfo" element={<MyInfo />}></Route>
 
           {/* 로그인 */}
