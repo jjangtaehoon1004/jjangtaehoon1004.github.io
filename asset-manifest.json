@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.214157f4.chunk.css",
-    "main.js": "/static/js/main.edb1c70c.chunk.js",
-    "main.js.map": "/static/js/main.edb1c70c.chunk.js.map",
+    "main.css": "/static/css/main.da132437.chunk.css",
+    "main.js": "/static/js/main.42ab2faf.chunk.js",
+    "main.js.map": "/static/js/main.42ab2faf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4b294dd8.js",
     "runtime-main.js.map": "/static/js/runtime-main.4b294dd8.js.map",
     "static/js/2.66d8daa9.chunk.js": "/static/js/2.66d8daa9.chunk.js",
     "static/js/2.66d8daa9.chunk.js.map": "/static/js/2.66d8daa9.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.214157f4.chunk.css.map": "/static/css/main.214157f4.chunk.css.map",
+    "static/css/main.da132437.chunk.css.map": "/static/css/main.da132437.chunk.css.map",
     "static/js/2.66d8daa9.chunk.js.LICENSE.txt": "/static/js/2.66d8daa9.chunk.js.LICENSE.txt",
     "static/media/*font.css": "/static/media/AnyConv.com__SDSamliphopangcheBasic.775d1a54.woff",
     "static/media/*common.css": "/static/media/treatment_bg.1f1ad059.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.4b294dd8.js",
     "static/js/2.66d8daa9.chunk.js",
-    "static/css/main.214157f4.chunk.css",
-    "static/js/main.edb1c70c.chunk.js"
+    "static/css/main.da132437.chunk.css",
+    "static/js/main.42ab2faf.chunk.js"
   ]
 }
